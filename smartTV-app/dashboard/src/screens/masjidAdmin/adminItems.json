@@ -1,0 +1,23 @@
+{
+  "titles": [
+    "Owner ID",
+    "Masjid Name",
+    "Masjid Location",
+    "Registration Date",
+    "Owner Name",
+    "Email",
+    "Action"
+  ],
+  "items": [
+    {
+      "id": "#2050",
+      "masjidName": "Baitul Aman",
+      "location": "Malaysia",
+      "date": "23 August 2023",
+      "ownerName": "Abu Bakar",
+      "email": "bakker@gmail.com",
+      "action": "icon"
+    }
+    
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "prayerTime": [
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    },
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    },
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    },
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    },
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    },
+    {
+      "id": "01",
+      "name": "Fajar",
+      "salatTime": "04:35 AM",
+      "azanTime": "04:35 AM",
+      "IqamahTime": "04:50 AM"
+    }
+  ]
+}

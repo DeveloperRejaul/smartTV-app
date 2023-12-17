@@ -1,0 +1,46 @@
+{
+  "cli": {
+    "version": ">= 5.6.0"
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
+    },
+    "preview": {
+      "extends": "production",
+      "distribution": "internal",
+      "env": {
+        "SOCKET_URL": "wss://taqwimtv.my/",
+        "BASE_URL":"https://taqwimtv.my/api/"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {
+      "node": "16.13.0",
+      "env": {
+        "SOCKET_URL": "wss://taqwimtv.my/",
+        "BASE_URL":"https://taqwimtv.my/api/"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
+

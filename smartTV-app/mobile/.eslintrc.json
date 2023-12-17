@@ -1,0 +1,55 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "airbnb/hooks"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "plugins": ["react", "react-native"],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "import/prefer-default-export": "off",
+    "no-unused-expressions": "off",
+    "no-sequences": "off",
+    "no-restricted-syntax": "off",
+    "no-unsafe-optional-chaining": "off",
+    "import/no-unresolved": "off",
+    "consistent-return": "off",
+    "no-plusplus": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-shadow": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-quotes": ["error", "prefer-single"],
+    "max-len": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "no-await-in-loop": "off",
+    "no-//// console": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "no-nested-ternary": "off",
+    "no-undef": "off",
+    "object-curly-newline": "off",
+    "import/no-cycle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "prefer-destructuring": "off",
+    "react/no-unescaped-entities":"off",
+    "array-callback-return":"off",
+    "no-use-before-define":"off",
+    "react/jsx-no-bind":"off",
+    "react-hooks/rules-of-hooks":"off",
+    "react/jsx-no-useless-fragment":"off",
+    "no-case-declarations":"off",
+    "no-return-await":"off",
+    "no-return-assign":"off"
+  }
+}
+

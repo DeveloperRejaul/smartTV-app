@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      screens: {
+        xss: '400px',
+      },
+      colors: {
+        tints: {
+          900: '#7F265B',
+          800: '#8b3b6b',
+          700: '#98517b',
+          600: '#a5678c',
+          500: '#b27c9c',
+          400: '#bf92ad',
+          300: '#cba8bd',
+          200: '#d8bdcd',
+          100: '#e5d3de',
+          50: '#f2e9ee',
+        },
+        grays: {
+          900: '#333333',
+          800: '#474747',
+          700: '#5b5b5b',
+          600: '#707070',
+          500: '#848484',
+          400: '#999999',
+          300: '#adadad',
+          200: '#c1c1c1',
+          100: '#d6d6d6',
+          50: '#eaeaea',
+          25: '#80808042',
+        },
+        bc: { 900: '#6B6B6B' },
+        wight: { 900: '#FFFFFF' },
+        black: { 50: '#00000018' },
+        error: '#d62100',
+        yellow: { 25: '#ecb79a' },
+        circle: { 100: '#fe729c' },
+        circle2: { 100: '#7b61ff' },
+
+      },
+      fontFamily: {
+        NunitoSans: ['Nunito Sans', 'sans-serif'],
+        fjalla_one: ['Fjalla One', 'sans-serif'],
+        libre_baskerville: ['Libre Baskerville', 'sans-serif'],
+        metrophobic: ['Metrophobic', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+        advent_pro: ['Advent Pro', 'sans-serif'],
+        audiowide: ['Audiowide', 'sans-serif'],
+        electrolize: ['Electrolize', 'sans-serif'],
+        kalam: ['Kalam', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
